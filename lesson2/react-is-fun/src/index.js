@@ -1,10 +1,28 @@
-import React from "react";
-import ReactDOM from "react-dom";
+import React, { Component } from 'react';
+import { render } from 'react-dom';
+import Library from './Library';
 
-const title = React.createElement(
-  "h1",
-  { id: "title", className: "header" },
-  "Hello World"
-);
+let bookList = [
+  {
+    title: 'A Series of Unfortunate Events 1',
+    author: 'Lemony Snicket',
+    pages: 300
+  },
+  {
+    title: 'A Series of Unfortunate Events 2',
+    author: 'Lemony Snicket',
+    pages: 205
+  },
+  {
+    title: 'A Series of Unfortunate Events 3',
+    author: 'Lemony Snicket',
+    pages: 388
+  },
+  {
+    title: 'A Series of Unfortunate Events 4',
+    author: 'Lemony Snicket',
+    pages: 123
+  }
+];
 
-ReactDOM.render(title, document.getElementById("root"));
+render(<Library books={bookList} />, document.getElementById('root'));
