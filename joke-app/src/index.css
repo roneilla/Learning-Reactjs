@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.joke-card {
+  width: 500px;
+  margin: 20px auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+h1 {
+  margin: 0;
+  padding: 50px 30px;
+  border-bottom: 1px solid #ccc;
+  background-color: #f0f0f0;
+  text-align: center;
+}
+
+h2,
+.fullJoke {
+  margin: 0;
+  padding: 50px 30px;
+  border-bottom: 1px solid #ccc;
+  background-color: #f0f0f0;
+}
+
+p {
+  padding: 10px 30px;
+}
